@@ -2,7 +2,6 @@ import React from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
-import Particle from "../Particles/Particle";
 
 export const Contact = () => {
   return (
@@ -27,7 +26,9 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://github.com/Ambeeru-Vignesh">
+            github.com/vignesh-ambeeru
+          </a>
         </li>
       </ul>
     </footer>

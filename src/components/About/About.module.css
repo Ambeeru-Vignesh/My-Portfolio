@@ -43,7 +43,7 @@
   color: var(--color-text);
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
 
 .aboutItem {
@@ -75,6 +75,10 @@
 
 .aboutItem p {
   font-size: 22px;
+}
+
+.icon {
+  margin-right: 20px;
 }
 
 @media screen and (max-width: 830px) {

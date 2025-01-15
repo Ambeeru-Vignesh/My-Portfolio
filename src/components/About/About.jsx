@@ -15,7 +15,7 @@ export const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img src={getImageUrl("about/frontend.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
               <h3>Frontend Development</h3>
               <p>
@@ -26,7 +26,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img src={getImageUrl("about/backend.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
               <h3>Backend Development</h3>
               <p>
@@ -39,7 +39,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/devops.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>Cloud & DevOps Expertise</h3>
               <p>
@@ -52,7 +52,7 @@ export const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+            <img src={getImageUrl("about/AI.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
               <h3>AI & ML Expertise</h3>
               <p>
