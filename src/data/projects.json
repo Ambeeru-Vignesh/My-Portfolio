@@ -33,7 +33,7 @@
   },
   {
     "title": "Attandance Marking System",
-    "imageSrc": "projects/music.png",
+    "imageSrc": "projects/attendance.png",
     "description": "A face recognition-based attendance marking GUI model utilizing the LBPH algorithm.",
     "skills": ["Python", "Tkinter", "OpenCV", "LBPH"],
     "demo": "https://www.example.com",
