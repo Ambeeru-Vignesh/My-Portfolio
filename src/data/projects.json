@@ -1,26 +1,50 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Uber Backend APIs",
+    "imageSrc": "projects/uber.png",
+    "description": "A Production Level, scalable Backend Application following MVC architecture.",
+    "skills": ["SpringBoot", "PostgresSQL", "AWS", "Docker"],
+    "demo": "http://uber-spring-boot-env.eba-igicaemr.us-east-2.elasticbeanstalk.com/swagger-ui/index.html",
+    "source": "https://github.com/Ambeeru-Vignesh/Uber-Backend-App"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "E-commerce App",
+    "imageSrc": "projects/ecommerce.png",
+    "description": "A Production Level full stack e-commerce Application with all the advanced features.",
+    "skills": ["ReactJs", "ExpressJs", "NodeJs", "MongoDB", "Stripe"],
+    "demo": "https://ecommerce-app-55.onrender.com/",
+    "source": "https://github.com/Ambeeru-Vignesh/E-Commerce"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Bus Karo",
+    "imageSrc": "projects/bus.png",
+    "description": "A MERN stack Bus Booking Application with Admin Panel, Authorization and Payment gateway.",
+    "skills": ["ReactJs", "ExpressJs", "NodeJs", "MongoDB", "Stripe"],
+    "demo": "https://buskaro.onrender.com/login",
+    "source": "https://github.com/Ambeeru-Vignesh/Bus-Karo"
+  },
+  {
+    "title": "Music Genre Virtuoso",
+    "imageSrc": "projects/music.png",
+    "description": "An Advanced Convolutional Neural Network based music genre classification model",
+    "skills": ["Python", "Tensorflow", "Keras", "Sklearn", "JS"],
+    "demo": "https://drive.google.com/file/d/1fGPF3jmkte2EQhpqrtA4d8f09UzXcsj3/view?usp=sharing",
+    "source": "https://github.com/Ambeeru-Vignesh/Music-Genre-Virtuoso"
+  },
+  {
+    "title": "Attandance Marking System",
+    "imageSrc": "projects/music.png",
+    "description": "A face recognition-based attendance marking GUI model utilizing the LBPH algorithm.",
+    "skills": ["Python", "Tkinter", "OpenCV", "LBPH"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Ambeeru-Vignesh/Face-Recognition-Based-Attendance-System"
+  },
+  {
+    "title": "Youtube Clone",
+    "imageSrc": "projects/youtube.png",
+    "description": "A basic Youtube Clone developed using Typescript.",
+    "skills": ["Typescript", "JavaScript", "CSS", "HTML"],
+    "demo": "https://youtube-clone-git-main-ambeeru-vignesh.vercel.app/",
+    "source": "https://github.com/Ambeeru-Vignesh/Youtube-Clone"
   }
 ]
