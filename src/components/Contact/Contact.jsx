@@ -30,6 +30,10 @@ export const Contact = () => {
             github.com/vignesh-ambeeru
           </a>
         </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/twitter.png")} alt="twitter icon" />
+          <a href="https://x.com/A_Vignesh_05"> x.com/vignesh-ambeeru</a>
+        </li>
       </ul>
     </footer>
   );

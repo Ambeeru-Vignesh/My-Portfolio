@@ -1,5 +1,19 @@
 @import "../../vars.css";
 
+@keyframes neonPulse {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgb(26, 117, 236), 0 0 10px rgb(26, 117, 236),
+      0 0 20px rgb(26, 117, 236), 0 0 40px rgb(26, 117, 236),
+      0 0 80px rgb(26, 117, 236);
+  }
+  50% {
+    text-shadow: 0 0 2px rgb(26, 117, 236), 0 0 5px rgb(26, 117, 236),
+      0 0 10px rgb(26, 117, 236), 0 0 20px rgb(26, 117, 236),
+      0 0 40px rgb(26, 117, 236);
+  }
+}
+
 .container {
   color: var(--color-text);
   margin-top: 120px;
@@ -36,6 +50,8 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  animation: neonPulse 1.5s infinite;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .link a {
@@ -44,6 +60,11 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+}
+
+.link img {
+  animation: neonPulse 1.5s infinite;
+  width: 45px;
 }
 
 @media screen and (max-width: 830px) {
