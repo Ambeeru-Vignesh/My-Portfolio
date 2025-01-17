@@ -6,21 +6,22 @@ import mrcet from "../../../assets/timeline/mrcet.png";
 export const Timeline = () => {
   const timelineData = [
     {
-      institution: "TechVibrant",
-      role: "Software Engineer",
-      duration: "2022-Present",
-      date: "18 Jul",
+      institution: "University Of South Florida",
+      role: "Masters of Science in Computer Science",
+      duration: "2023-2025",
+      date: "Aug, 2023 - Aug, 2025",
       description:
-        "Pursuing my Master of Science in Computer Science at the University of South Florida, I have developed a strong foundation in systems, algorithms, and artificial intelligence through rigorous coursework, including Operating Systems, Computer Vision, Trustworthy AI Systems, and Security in Machine Learning. These courses have equipped me with the technical expertise and problem-solving skills to design efficient, secure, and innovative solutions for real-world challenges in computing and AI.",
+        "Pursuing my Master of Science in Computer Science at the University of South Florida, I have developed a strong foundation in systems, algorithms, and artificial intelligence through rigorous coursework, including Operating Systems, Computer Architecture, Computer Vision, Trustworthy AI Systems, and Security in Machine Learning. These courses have equipped me with the technical expertise and problem-solving skills to design efficient, secure, and innovative solutions for real-world challenges in computing and AI.",
       logo: usf,
     },
     {
-      institution: "Malla Reddy College of Engineering and Technology",
-      role: "Undergraduate Computer Science Student",
+      institution:
+        "Malla Reddy College of Engineering and Technology (Affiliated to JNTUH)",
+      role: "Bachelor of Technology in Computer Science and Engineering",
       duration: "2017-2021",
-      date: "Jul, 2017 - July, 2021",
+      date: "July, 2017 - July, 2021",
       description:
-        "Completed 4-month Full Stack Developer Trainee program at Fynd Academy (Shopsense Retail Technologies Ltd.), successfully creating independent, industry-level projects using the MERN tech stack.",
+        "I graduated with First Class with Distinction, building a solid foundation in core computer science disciplines. During my undergraduate studies, I excelled in key areas such as Machine Learning, Cloud Computing, Artificial Intelligence, Distributed Systems, Data Structures and Algorithms. My academic journey was enriched by practical experience through hands-on projects, lab work, and seminars, equipping me with the skills and analytical mindset needed to tackle real-world challenges and succeed in advanced research and development.",
       logo: mrcet,
     },
   ];

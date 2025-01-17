@@ -43,6 +43,11 @@
   gap: 11px;
 }
 
+.image {
+  width: 75px;
+  height: 75px;
+}
+
 .skillImageContainer {
   background-color: var(--color-secondary);
   border-radius: 100%;
