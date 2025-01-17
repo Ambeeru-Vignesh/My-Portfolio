@@ -6,7 +6,10 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-top: 80px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40px;
 }
 
 .title:hover {
@@ -18,9 +21,7 @@
 
 .timeline-container {
   max-width: 1200px;
-  margin-top: 80px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: auto;
 }
 
 .timeline {

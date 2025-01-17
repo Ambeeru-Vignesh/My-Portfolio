@@ -11,14 +11,14 @@ export const Timeline = () => {
       duration: "2022-Present",
       date: "18 Jul",
       description:
-        "Key contributor to global SaaS products ezSCM and iFarm, serving as lead React Native developer for ezSCM. Facilitated rapid UI improvements across web and mobile platforms, culminating in the delivery of the mobile app within 2 months. Resulted in a remarkable 70% increase in mobile efficiency and bolstered web security against unauthorized access.",
+        "Pursuing my Master of Science in Computer Science at the University of South Florida, I have developed a strong foundation in systems, algorithms, and artificial intelligence through rigorous coursework, including Operating Systems, Computer Vision, Trustworthy AI Systems, and Security in Machine Learning. These courses have equipped me with the technical expertise and problem-solving skills to design efficient, secure, and innovative solutions for real-world challenges in computing and AI.",
       logo: usf,
     },
     {
-      institution: "FYND Academy",
-      role: "Full Stack Developer Trainee",
-      duration: "2023",
-      date: "Feb 17-May 25",
+      institution: "Malla Reddy College of Engineering and Technology",
+      role: "Undergraduate Computer Science Student",
+      duration: "2017-2021",
+      date: "Jul, 2017 - July, 2021",
       description:
         "Completed 4-month Full Stack Developer Trainee program at Fynd Academy (Shopsense Retail Technologies Ltd.), successfully creating independent, industry-level projects using the MERN tech stack.",
       logo: mrcet,
@@ -26,36 +26,40 @@ export const Timeline = () => {
   ];
 
   return (
-    <div className={styles["timeline-container"]}>
+    <div>
       <h2 className={styles.title}>Education</h2>
-      <div className={styles.timeline}>
-        {timelineData.map((item, index) => (
-          <div
-            key={index}
-            className={`${styles["timeline-item"]} ${
-              index % 2 === 0 ? styles.left : styles.right
-            }`}
-          >
-            <div className={styles["timeline-date"]}>
-              <div>{item.duration}</div>
-              <div>{item.date}</div>
-            </div>
-            <div className={styles["timeline-logo"]}>
-              <img src={item.logo} alt={`${item.institution} logo`} />
-            </div>
-            <div className={styles["timeline-content"]}>
-              <div className={styles["timeline-header"]}>
-                <h3 className={styles["timeline-title"]}>
-                  {item.role} @
-                  <span className={styles.institution}>{item.institution}</span>
-                </h3>
+      <div className={styles["timeline-container"]}>
+        <div className={styles.timeline}>
+          {timelineData.map((item, index) => (
+            <div
+              key={index}
+              className={`${styles["timeline-item"]} ${
+                index % 2 === 0 ? styles.left : styles.right
+              }`}
+            >
+              <div className={styles["timeline-date"]}>
+                <div>{item.duration}</div>
+                <div>{item.date}</div>
               </div>
-              <p className={styles["timeline-description"]}>
-                {item.description}
-              </p>
+              <div className={styles["timeline-logo"]}>
+                <img src={item.logo} alt={`${item.institution} logo`} />
+              </div>
+              <div className={styles["timeline-content"]}>
+                <div className={styles["timeline-header"]}>
+                  <h3 className={styles["timeline-title"]}>
+                    {item.role} @
+                    <span className={styles.institution}>
+                      {item.institution}
+                    </span>
+                  </h3>
+                </div>
+                <p className={styles["timeline-description"]}>
+                  {item.description}
+                </p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
