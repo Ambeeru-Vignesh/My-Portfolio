@@ -6,6 +6,7 @@ import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import Particle from "./components/Particles/Particle";
 import { Projects } from "./components/Projects/Projects";
+import { Timeline } from "./components/Timeline/Timeline";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Timeline />
       <Experience />
       <Projects />
       <Contact />
