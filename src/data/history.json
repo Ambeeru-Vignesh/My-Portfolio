@@ -4,7 +4,13 @@
     "organisation": "Accenture",
     "startDate": "July, 2021",
     "endDate": "January, 2023",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": [
+      "Reduced token validation time by 60% and improved user authentication processes by integrating JWT tokens and Redis caching.",
+      "Migrated monolithic systems to microservices, reducing system downtime by 50% and increasing deployment frequency by 40%.",
+      "Automated testing and deployment pipelines, saving 20+ hours/week and achieving 99.9% build stability.",
+      "Enhanced system performance by reducing portfolio dashboard load times by 90% and API response times by 40%.",
+      "Designed real-time data pipelines with Apache Kafka and RabbitMQ, ensuring zero-latency communication for critical workflows."
+    ],
     "imageSrc": "history/Accenture.png"
   },
   {
@@ -12,7 +18,12 @@
     "organisation": "DXC Technology",
     "startDate": "April, 2021",
     "endDate": "June, 2021",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "experiences": [
+      "Developed RESTful APIs with Node.js, Express, and Spring Boot, optimizing data integration and reducing response times by 30%.",
+      "Implemented dynamic, responsive interfaces using React.js and Redux, boosting user engagement with reusable components and improved performance.",
+      "Designed authentication systems with Spring Security, JWT, and OAuth, reducing unauthorized access incidents by 20%.",
+      "Increased reliability by creating tests with Jest and JUnit and streamlined CI/CD processes using Docker and AWS Elastic Beanstalk."
+    ],
     "imageSrc": "history/DXC.png"
   }
 ]

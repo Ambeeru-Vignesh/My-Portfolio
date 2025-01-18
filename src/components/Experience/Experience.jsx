@@ -1,11 +1,19 @@
 import React from "react";
-
+import { useCallback } from "react";
 import styles from "./Experience.module.css";
 import skills from "../../data/skills.json";
 import history from "../../data/history.json";
 import { getImageUrl } from "../../utils";
 
 export const Experience = () => {
+  const handleMouseMove = useCallback((e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    e.currentTarget.style.setProperty("--x", `${x}px`);
+    e.currentTarget.style.setProperty("--y", `${y}px`);
+  }, []);
+
   return (
     <section className={styles.container} id="experience">
       <h2 className={styles.title}>Experience</h2>
@@ -29,7 +37,11 @@ export const Experience = () => {
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
-              <li key={id} className={styles.historyItem}>
+              <li
+                key={id}
+                className={styles.historyItem}
+                onMouseMove={handleMouseMove}
+              >
                 <img
                   src={getImageUrl(historyItem.imageSrc)}
                   alt={`${historyItem.organisation} Logo`}
