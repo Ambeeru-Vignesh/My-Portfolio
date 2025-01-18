@@ -22,7 +22,7 @@
 
 .container:hover {
   transform: scale(1.05); /* Zoom effect */
-  box-shadow: 0 10px 10px 0 #1a2c3454; /* Enhanced shadow for highlight */
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.337); /* Enhanced shadow for highlight */
 }
 
 .image {
@@ -85,8 +85,8 @@
   border-radius: 100px;
   background: var(--color-secondary);
   padding: 1px 22px;
-  transition: border 0.001s ease, transform 0.001s ease;
-  transition: box-shadow 0.001s ease, transform 0.001s ease;
+  transition: transform 0.001s ease, border 0.001s ease;
+  transition: transform 0.001s ease, box-shadow 0.001s ease;
 }
 
 .link:hover {
