@@ -22,7 +22,7 @@
 
 .container:hover {
   transform: scale(1.05); /* Zoom effect */
-  box-shadow: 0 10px 10px 0 #6eb8d854; /* Enhanced shadow for highlight */
+  box-shadow: 0 10px 10px 0 #1a2c3454; /* Enhanced shadow for highlight */
 }
 
 .image {
