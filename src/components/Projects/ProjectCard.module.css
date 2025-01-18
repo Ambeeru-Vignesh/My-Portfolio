@@ -4,8 +4,14 @@
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  background: linear-gradient(180deg, #435290 0%, #0f203e 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  box-shadow: 0 5px 5px 0 #6eb8d8b0;
   padding: 18px 24px;
   max-width: 345px;
   width: 345px; /* Fixed width */
@@ -16,8 +22,7 @@
 
 .container:hover {
   transform: scale(1.05); /* Zoom effect */
-  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow for highlight */
-  
+  box-shadow: 0 10px 10px 0 #6eb8d854; /* Enhanced shadow for highlight */
 }
 
 .image {
@@ -60,7 +65,7 @@
   font-size: 25px;
   font-weight: 400;
   border-radius: 100px;
-  background: var(--color-dark);
+  background: #185d7db0;
   padding: 2px 22px;
 }
 
@@ -76,14 +81,16 @@
   text-decoration: none;
   color: var(--color-text);
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 400;
   border-radius: 100px;
-  background: var(--color-primary);
+  background: var(--color-secondary);
   padding: 1px 22px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
+  transition: border 0.001s ease, transform 0.001s ease;
+  transition: box-shadow 0.001s ease, transform 0.001s ease;
 }
 
 .link:hover {
-  background-color: var(--color-dark); /* Change background color on hover */
+  border: 1px solid #6eb8d890;
+  box-shadow: 0 5px 5px 0 #6eb8d890; /* Change background color on hover */
   transform: translateY(-2px); /* Slight lift on hover */
 }
