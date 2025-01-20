@@ -3,11 +3,11 @@
     "role": "Application Development Associate",
     "organisation": "Accenture",
     "startDate": "July, 2021",
-    "endDate": "January, 2023",
+    "endDate": "March, 2023",
     "experiences": [
       "Reduced token validation time by 60% and improved user authentication processes by integrating JWT tokens and Redis caching.",
       "Migrated monolithic systems to microservices, reducing system downtime by 50% and increasing deployment frequency by 40%.",
-      "Automated testing and deployment pipelines, saving 20+ hours/week and achieving 99.9% build stability.",
+      "Automated testing and deployment pipelines, saving 20+ hours/week and achieving build stability.",
       "Enhanced system performance by reducing portfolio dashboard load times by 90% and API response times by 40%.",
       "Designed real-time data pipelines with Apache Kafka and RabbitMQ, ensuring zero-latency communication for critical workflows."
     ],
