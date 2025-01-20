@@ -10,3 +10,7 @@
   /* Fonts */
   --font-roboto: "Roboto";
 }
+
+body {
+  zoom: 0.8; /* Scales content to 80% */
+}

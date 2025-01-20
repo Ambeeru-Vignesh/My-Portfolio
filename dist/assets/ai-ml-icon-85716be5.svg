@@ -1,0 +1,57 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="aimlGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0.6" result="blur"/>
+      <feFlood flood-color="#7C4DFF" flood-opacity="0.5" result="color"/>
+      <feComposite in="color" in2="blur" operator="in" result="glowBlur"/>
+      <feMerge>
+        <feMergeNode in="glowBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <linearGradient id="aimlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C4DFF"/>
+      <stop offset="100%" style="stop-color:#5E35B1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background circuit board pattern -->
+  <rect 
+    x="3" 
+    y="3" 
+    width="18" 
+    height="18" 
+    rx="3"
+    fill="url(#aimlGradient)"
+    filter="url(#aimlGlow)"
+  />
+
+  <!-- Neural network nodes and connections -->
+  <!-- Input layer -->
+  <circle cx="6" cy="8" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="6" cy="12" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="6" cy="16" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+
+  <!-- Hidden layer -->
+  <circle cx="12" cy="7" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="12" cy="12" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="12" cy="17" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+
+  <!-- Output layer -->
+  <circle cx="18" cy="10" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="18" cy="14" r="1" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+
+  <!-- Neural connections -->
+  <path 
+    d="M6 8L12 7 M6 8L12 12 M6 12L12 7 M6 12L12 12 M6 12L12 17 M6 16L12 12 M6 16L12 17 M12 7L18 10 M12 12L18 10 M12 12L18 14 M12 17L18 14"
+    stroke="#B39DDB"
+    stroke-width="0.5"
+    opacity="0.6"
+  />
+
+  <!-- Data flow particles -->
+  <circle cx="9" cy="10" r="0.4" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="15" cy="11" r="0.4" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+  <circle cx="9" cy="14" r="0.4" fill="#E8EAF6" filter="url(#aimlGlow)"/>
+</svg>
