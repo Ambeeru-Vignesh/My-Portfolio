@@ -32,7 +32,7 @@
     "source": "https://github.com/Ambeeru-Vignesh/Music-Genre-Virtuoso"
   },
   {
-    "title": "Attandance Marking System",
+    "title": "Attendance Marking System",
     "imageSrc": "projects/attendance.png",
     "description": "A face recognition-based attendance marking GUI model utilizing the LBPH algorithm.",
     "skills": ["Python", "Tkinter", "OpenCV", "LBPH"],

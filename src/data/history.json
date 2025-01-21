@@ -24,6 +24,6 @@
       "Improved front-end performance by implementing Code Splitting, Windowing, and Lazy Loading, reducing load times by 35%.",
       "Optimized database operations in MongoDB with indexing, aggregation pipelines, and schema design best practices, resulting in a 40% improvement in query performance and faster data retrieval for high-traffic APIs."
     ],
-    "imageSrc": "history/DXC.png"
+    "imageSrc": "history/dxctech.png"
   }
 ]
