@@ -23,7 +23,7 @@ export const Hero = () => {
         </p>
         <div class="button-container">
           <a
-            href="https://drive.google.com/file/d/152Cz-vqLY6sAQoyq_J81mJ-jBIwPU2nF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1nd9KrMYEFjkNxEYnNNWtsZiEGT5ja1RA/view?usp=sharing"
             className={styles.contactBtn}
           >
             Resume

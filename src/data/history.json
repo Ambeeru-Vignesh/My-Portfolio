@@ -19,10 +19,10 @@
     "startDate": "April, 2021",
     "endDate": "June, 2021",
     "experiences": [
-      "Developed RESTful APIs with Node.js, Express, and Spring Boot, optimizing data integration and reducing response times by 30%.",
-      "Implemented dynamic, responsive interfaces using React.js and Redux, boosting user engagement with reusable components and improved performance.",
-      "Designed authentication systems with Spring Security, JWT, and OAuth, reducing unauthorized access incidents by 20%.",
-      "Increased reliability by creating tests with Jest and JUnit and streamlined CI/CD processes using Docker and AWS Elastic Beanstalk."
+      "Designed and developed highly efficient RESTful APIs using MERN (MongoDB, Express.js, React.js, Node.js), enabling seamless integration across multiple business systems with >90% uptime ensuring security compliance.",
+      "Implemented robust API security measures using JWT authentication and middleware in Node.js. Designed role-based access control (RBAC) and fine-tuned user permissions, reducing unauthorized access by 30%.",
+      "Improved front-end performance by integrating advanced React.js techniques, including Code Splitting, Windowing, and Lazy Loading, reducing load times by 35%.",
+      "Optimized database operations in MongoDB with indexing, aggregation pipelines, and schema design best practices, resulting in a 40% improvement in query performance and faster data retrieval for high-traffic APIs."
     ],
     "imageSrc": "history/DXC.png"
   }
