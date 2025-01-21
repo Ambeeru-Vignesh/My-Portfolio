@@ -7,6 +7,7 @@
     "title": "CSS",
     "imageSrc": "skills/css.png"
   },
+
   {
     "title": "JavaScript",
     "imageSrc": "skills/js.png"
@@ -14,6 +15,10 @@
   {
     "title": "TypeScript",
     "imageSrc": "skills/ts.png"
+  },
+  {
+    "title": "Tailwind",
+    "imageSrc": "skills/tailwind.png"
   },
   {
     "title": "React",
@@ -108,15 +113,15 @@
     "imageSrc": "skills/keras.png"
   },
   {
+    "title": "Sklearn",
+    "imageSrc": "skills/sklearn.png"
+  },
+  {
     "title": "PyTorch",
     "imageSrc": "skills/pytorch.png"
   },
   {
-    "title": "Machine Learning",
+    "title": "Machine Learning & AI",
     "imageSrc": "skills/ml.png"
-  },
-  {
-    "title": "Deep Learning",
-    "imageSrc": "skills/dp.png"
   }
 ]
