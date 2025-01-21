@@ -20,19 +20,34 @@ export const Contact = () => {
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/vignesh-ambeeru/">
+          <a
+            href="https://www.linkedin.com/in/vignesh-ambeeru/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             linkedin.com/vignesh-ambeeru
           </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://github.com/Ambeeru-Vignesh">
+          <a
+            href="https://github.com/Ambeeru-Vignesh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             github.com/vignesh-ambeeru
           </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/twitter.png")} alt="twitter icon" />
-          <a href="https://x.com/A_Vignesh_05"> x.com/vignesh-ambeeru</a>
+          <a
+            href="https://x.com/A_Vignesh_05"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            x.com/vignesh-ambeeru
+          </a>
         </li>
       </ul>
     </footer>
