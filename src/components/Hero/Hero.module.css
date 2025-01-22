@@ -156,7 +156,7 @@
   }
 
   .heroImg {
-    width: 57%; /* Adjust the width for smaller screens */
+    width: 65%; /* Adjust the width for smaller screens */
     height: auto; /* Maintain aspect ratio */
   }
 }

@@ -83,25 +83,48 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
+    margin: 50px 5%; /* Reduce horizontal margins */
+    padding: 40px 20px; /* Adjust padding for smaller screens */
+    box-shadow: 8px 8px 10px #0a2f64; /* Reduce shadow intensity */
+  }
+
+  .title {
+    font-size: 28px; /* Smaller title size */
+    text-align: center; /* Center-align the title */
   }
 
   .content {
-    flex-direction: column;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    gap: 30px; /* Increase spacing between stacked elements */
   }
 
   .aboutImage {
-    display: none;
+    display: none; /* Hide image on mobile */
   }
 
   .aboutItems {
-    margin-top: 29px;
+    width: 100%; /* Ensure items take full width */
+    margin-top: 20px; /* Add spacing above items */
+    align-items: center; /* Center-align the items */
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    width: 100%; /* Full width for list items */
+    text-align: center; /* Center-align content */
+    padding: 20px; /* Reduce padding */
+  }
+
+  .aboutItem h3 {
+    font-size: 22px; /* Reduce heading size */
+  }
+
+  .aboutItem p {
+    font-size: 18px; /* Reduce paragraph size */
+  }
+
+  .icon {
+    margin-right: 0; /* Remove unnecessary spacing */
+    margin-bottom: 10px; /* Add spacing below the icon */
   }
 }

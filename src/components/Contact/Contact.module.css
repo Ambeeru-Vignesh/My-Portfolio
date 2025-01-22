@@ -21,13 +21,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  width: 120vw;
+  padding: 58px 5%; /* Adjust padding for tighter layout */
+  gap: 30px; /* Reduce padding for tighter layout */
 }
 
 .text h2 {
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   letter-spacing: 4px;
 }
@@ -49,7 +49,7 @@
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 40px;
   animation: neonPulse 1.5s infinite;
   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
@@ -67,19 +67,84 @@
   width: 45px;
 }
 
+.footerNote {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  color: var(--color-text);
+  font-family: var(--font-roboto);
+  letter-spacing: 1px;
+  animation: glowText 2s infinite ease-in-out;
+}
+
+.footerNote strong {
+  color: rgb(0, 204, 255);
+}
+
+.heart {
+  color: rgb(255, 0, 102);
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 5px rgb(255, 0, 102), 0 0 10px rgb(255, 0, 102),
+      0 0 15px rgb(255, 0, 102);
+  }
+  50% {
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgb(255, 0, 102), 0 0 20px rgb(255, 0, 102),
+      0 0 30px rgb(255, 0, 102);
+  }
+}
+
+@keyframes glowText {
+  0%,
+  100% {
+    text-shadow: 0 0 5px rgb(0, 204, 255), 0 0 10px rgb(0, 204, 255);
+  }
+  50% {
+    text-shadow: 0 0 10px rgb(0, 204, 255), 0 0 20px rgb(0, 204, 255);
+  }
+}
+
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 20px;
+    padding: 40px 5%;
+    margin-top: 80px; /* Reduce margin for better spacing on small screens */
   }
 
-  .text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  .text h2 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
+  .text p {
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 1px;
   }
 
   .links {
     align-items: center;
+    gap: 20px;
+  }
+
+  .link {
+    gap: 20px; /* Reduce gap between icon and text */
+  }
+
+  .link img {
+    width: 35px; /* Resize icons for smaller screens */
+  }
+
+  .link a {
+    font-size: 22px; /* Reduce font size for readability */
+    letter-spacing: 1px;
   }
 }

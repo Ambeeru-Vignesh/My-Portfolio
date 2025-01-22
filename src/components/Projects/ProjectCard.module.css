@@ -94,3 +94,51 @@
   box-shadow: 0 2px 2px 0 #6eb8d890; /* Change background color on hover */
   transform: translateY(-2px); /* Slight lift on hover */
 }
+
+@media screen and (max-width: 830px) {
+  .container {
+    max-width: 70%; /* Adjust container width to fit smaller screens */
+    width: auto; /* Allow flexible width */
+    height: auto; /* Allow flexible height */
+    padding: 14px 16px; /* Reduce padding */
+  }
+
+  .image {
+    margin-bottom: 18px; /* Reduce spacing */
+    width: 100%; /* Ensure the image scales to the card width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .title {
+    font-size: 20px; /* Reduce font size for titles */
+    text-align: center; /* Center align the title */
+  }
+
+  .description {
+    font-size: 18px; /* Reduce font size for descriptions */
+    text-align: center; /* Center align the text */
+    margin-top: 8px; /* Adjust spacing */
+  }
+
+  .skills {
+    justify-content: center; /* Center align the skill tags */
+    gap: 8px; /* Adjust spacing between skill tags */
+  }
+
+  .skill {
+    font-size: 16px; /* Reduce font size for skills */
+    padding: 4px 12px; /* Adjust padding */
+  }
+
+  .links {
+    flex-direction: column; /* Stack the links vertically */
+    align-items: center; /* Center align the links */
+    gap: 12px; /* Add spacing between links */
+    margin-top: 18px; /* Adjust margin */
+  }
+
+  .link {
+    font-size: 20px; /* Reduce font size for links */
+    padding: 6px 16px; /* Adjust padding */
+  }
+}

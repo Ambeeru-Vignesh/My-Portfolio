@@ -50,6 +50,12 @@ export const Contact = () => {
           </a>
         </li>
       </ul>
+      <div className={styles.footerNote}>
+        <p>
+          Made with <span className={styles.heart}>❤</span> by{" "}
+          <strong>Vignesh</strong>
+        </p>
+      </div>
     </footer>
   );
 };
