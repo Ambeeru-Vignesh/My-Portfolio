@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
-    max-width: 70%; /* Adjust container width to fit smaller screens */
+    max-width: 80%; /* Adjust container width to fit smaller screens */
     width: auto; /* Allow flexible width */
     height: auto; /* Allow flexible height */
     padding: 14px 16px; /* Reduce padding */
