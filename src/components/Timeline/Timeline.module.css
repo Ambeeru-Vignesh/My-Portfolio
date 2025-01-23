@@ -153,13 +153,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 830px) {
   .timeline::after {
     left: 35px;
   }
 
   .timeline-item {
-    width: 100%;
+    width: 90%;
     padding-left: 90px;
     padding-right: 0;
     margin-bottom: 40px;
@@ -188,10 +188,10 @@
   }
 
   .timeline-title {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .timeline-description {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
