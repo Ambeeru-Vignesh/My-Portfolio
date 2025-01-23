@@ -151,6 +151,23 @@
     flex-direction: column-reverse;
   }
 
+  .title {
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 30px;
+  }
+
+  .description {
+    font-size: 22px;
+    font-family: var(--font-roboto);
+    margin-bottom: 52px;
+    margin-right: 22px;
+  }
+
+  .contactBtn {
+    font-size: 24px;
+  }
+
   .content {
     align-items: center;
   }
