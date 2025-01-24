@@ -23,7 +23,7 @@ export const Hero = () => {
         </p>
         <div class="button-container">
           <a
-            href="https://drive.google.com/file/d/1UiK07Ym7BpvMScBBO-r93KizcGTEiPYl/view?usp=sharing"
+            href="https://drive.google.com/file/d/1RZbskDmHWJAmvmtKXZbKtJ7Hf5hI6Z7L/view?usp=drive_link"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"
