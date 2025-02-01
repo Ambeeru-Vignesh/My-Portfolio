@@ -19,7 +19,7 @@
     "startDate": "April, 2021",
     "endDate": "June, 2021",
     "experiences": [
-      "Designed and developed highly efficient RESTful APIs using MERN (MongoDB, Express.js, React.js, Node.js), enabling seamless integration across multiple business systems with >90% uptime, ensuring security compliance.",
+      "Designed and developed highly efficient RESTful APIs using MERN (MongoDB, Express.js, React.js, Node.js), enabling seamless integration across multiple business systems, ensuring security compliance.",
       "Implemented robust API security measures using JWT authentication and middleware in Node.js. Designed role-based access control (RBAC), reducing unauthorized access by 30%.",
       "Improved front-end performance by implementing Code Splitting, Windowing, and Lazy Loading, reducing load times by 35%.",
       "Optimized database operations in MongoDB with indexing, aggregation pipelines, and schema design best practices, resulting in a 40% improvement in query performance and faster data retrieval for high-traffic APIs."
