@@ -114,7 +114,7 @@
   top: 16px;
   width: 180px;
   z-index: 1;
-  font-size: 13px;
+  font-size: 14px;
   color: var(--color-primary);
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -134,7 +134,7 @@
   background: var(--gradient-card);
   border: 1px solid var(--color-border);
   backdrop-filter: blur(12px);
-  padding: 28px;
+  padding: 32px;
   border-radius: 16px;
   box-shadow: var(--shadow-card);
   transition: border-color var(--transition-med), box-shadow var(--transition-med), transform var(--transition-med);
@@ -153,7 +153,7 @@
 
 .timeline-title {
   margin: 0;
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
   color: #fff;
@@ -167,7 +167,7 @@
 
 .timeline-description {
   margin: 0;
-  font-size: 14px;
+  font-size: 15.5px;
   color: var(--color-text-muted);
   line-height: 1.75;
 }

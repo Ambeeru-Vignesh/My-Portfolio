@@ -27,7 +27,7 @@ export const Timeline = () => {
   ];
 
   return (
-    <div>
+    <div id="education">
       <div className={styles.titleWrapper}>
         <h2 className={styles.title}>Education</h2>
         <div className={styles.titleUnderline} />

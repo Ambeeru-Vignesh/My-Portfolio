@@ -77,8 +77,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 80px;
-  height: 80px;
+  width: 96px;
+  height: 96px;
   transition: border-color var(--transition-med), box-shadow var(--transition-med);
 }
 
@@ -88,13 +88,13 @@
 }
 
 .skillImageContainer img {
-  width: 46px;
-  height: 46px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
 }
 
 .skill p {
-  font-size: 12px;
+  font-size: 13.5px;
   font-family: var(--font-roboto);
   font-weight: 500;
   color: var(--color-text-muted);
@@ -161,7 +161,7 @@
 }
 
 .historyItemDetails h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 4px;
@@ -169,7 +169,7 @@
 }
 
 .historyItemDetails p {
-  font-size: 13px;
+  font-size: 14.5px;
   font-weight: 400;
   color: var(--color-primary);
   margin-bottom: 12px;
@@ -186,7 +186,7 @@
 }
 
 .historyItemDetails ul li {
-  font-size: 13.5px;
+  font-size: 15px;
   color: var(--color-text-muted);
   line-height: 1.6;
 }
