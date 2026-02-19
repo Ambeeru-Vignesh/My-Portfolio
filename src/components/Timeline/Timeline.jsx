@@ -28,7 +28,10 @@ export const Timeline = () => {
 
   return (
     <div>
-      <h2 className={styles.title}>Education</h2>
+      <div className={styles.titleWrapper}>
+        <h2 className={styles.title}>Education</h2>
+        <div className={styles.titleUnderline} />
+      </div>
       <div className={styles["timeline-container"]}>
         <div className={styles.timeline}>
           {timelineData.map((item, index) => (

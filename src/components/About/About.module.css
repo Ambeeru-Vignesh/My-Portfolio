@@ -1,130 +1,145 @@
 @import "../../vars.css";
 
+@keyframes fadeSlideUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  box-shadow: 16px 16px 14px #0a2f64;
-  padding: 73px;
-  margin-top: 100px;
+  padding: 100px 10%;
   z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
+}
+
+.titleWrapper {
+  margin-bottom: 60px;
 }
 
 .title {
   color: var(--color-text);
-  font-size: 35px;
+  font-size: 2.2rem;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px;
   text-transform: uppercase;
-  transition: color 0.3s ease, text-shadow 0.3s ease;
+  background: linear-gradient(90deg, #fff 40%, #00d4ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+  margin-bottom: 12px;
 }
 
-/* Neon light effect on hover */
-.title:hover {
-  color: #fff; /* Adjust to a brighter color if desired */
-  text-shadow: 0 0 5px rgb(0, 115, 255), 0 0 10px rgb(0, 115, 255),
-    0 0 20px rgb(0, 115, 255), 0 0 40px rgb(0, 115, 255),
-    0 0 80px rgb(0, 115, 255);
+.titleUnderline {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, #00d4ff, #7c3aed);
+  border-radius: 2px;
+  box-shadow: 0 0 12px rgba(0, 212, 255, 0.5);
 }
 
 .content {
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 60px;
 }
 
 .aboutImage {
-  width: 35%;
+  width: 30%;
+  max-width: 320px;
+  border-radius: 20px;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 30px rgba(0, 212, 255, 0.15));
 }
 
 .aboutItems {
   color: var(--color-text);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  flex: 1;
 }
 
 .aboutItem {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  border-radius: 20px;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 16px;
   list-style: none;
-  padding: 25px;
-  background-image: linear-gradient(
-    90deg,
-    rgba(165, 215, 232, 0.42) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
-  background-size: 0 100%;
-  background-repeat: no-repeat;
-  transition: 0.4s;
+  padding: 24px;
+  background: var(--gradient-card);
+  border: 1px solid var(--color-border);
+  backdrop-filter: blur(10px);
+  transition: border-color var(--transition-med), box-shadow var(--transition-med), transform var(--transition-med);
+  animation: fadeSlideUp 0.6s ease both;
 }
 
 .aboutItem:hover {
-  background-size: 100% 100%;
+  border-color: var(--color-border-hover);
+  box-shadow: 0 8px 32px rgba(0, 212, 255, 0.12);
+  transform: translateY(-4px);
 }
 
-.aboutItem h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 10px;
+.aboutItemIcon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  filter: drop-shadow(0 0 8px rgba(0, 212, 255, 0.4));
 }
 
-.aboutItem p {
-  font-size: 22px;
+.aboutItemText h3 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #fff;
+  letter-spacing: 0.3px;
 }
 
-.icon {
-  margin-right: 20px;
+.aboutItemText p {
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+}
+
+@media screen and (max-width: 1024px) {
+  .aboutItems {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 830px) {
   .container {
-    margin: 50px 5%; /* Reduce horizontal margins */
-    padding: 40px 20px; /* Adjust padding for smaller screens */
-    box-shadow: 8px 8px 10px #0a2f64; /* Reduce shadow intensity */
+    padding: 80px 6%;
   }
 
   .title {
-    font-size: 28px; /* Smaller title size */
-    text-align: center; /* Center-align the title */
+    font-size: 1.8rem;
   }
 
   .content {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center;
-    gap: 30px; /* Increase spacing between stacked elements */
+    flex-direction: column;
+    gap: 40px;
   }
 
   .aboutImage {
-    display: none; /* Hide image on mobile */
+    display: none;
   }
 
   .aboutItems {
-    width: 100%; /* Ensure items take full width */
-    margin-top: 20px; /* Add spacing above items */
-    align-items: center; /* Center-align the items */
+    width: 100%;
+    grid-template-columns: 1fr;
   }
 
   .aboutItem {
-    width: 100%; /* Full width for list items */
-    text-align: center; /* Center-align content */
-    padding: 20px; /* Reduce padding */
+    padding: 20px;
   }
 
-  .aboutItem h3 {
-    font-size: 22px; /* Reduce heading size */
+  .aboutItemText h3 {
+    font-size: 15px;
   }
 
-  .aboutItem p {
-    font-size: 18px; /* Reduce paragraph size */
-  }
-
-  .icon {
-    margin-right: 0; /* Remove unnecessary spacing */
-    margin-bottom: 10px; /* Add spacing below the icon */
+  .aboutItemText p {
+    font-size: 13px;
   }
 }

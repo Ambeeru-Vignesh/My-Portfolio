@@ -1,29 +1,30 @@
 [
   {
-    "role": "Application Development Associate",
-    "organisation": "Accenture",
-    "startDate": "July, 2021",
-    "endDate": "March, 2023",
+    "role": "Senior Full-Stack Software Engineer",
+    "organisation": "Wells Fargo",
+    "startDate": "March 2024",
+    "endDate": "Present",
     "experiences": [
-      "Reduced token validation time by 60% and improved user authentication processes by integrating JWT tokens and Redis caching.",
-      "Migrated monolithic systems to microservices, reducing system downtime by 50% and increasing deployment frequency by 40%.",
-      "Automated testing and deployment pipelines, saving 20+ hours/week and achieving build stability.",
-      "Enhanced system performance by reducing portfolio dashboard load times by 90% and API response times by 40%.",
-      "Designed real-time data pipelines with Apache Kafka and RabbitMQ, ensuring zero-latency communication for critical workflows."
+      "Implemented a semantic search module using Spring AI and RAG, utilizing vector embeddings to enable natural language querying of transaction history, improving search relevance by 40%.",
+      "Architected scalable cloud infrastructure using AWS EKS and Lambda, implementing Dockerized microservices and GitHub Actions CI/CD pipelines to achieve zero-downtime deployments.",
+      "Engineered an event-driven messaging architecture using Apache Kafka and RabbitMQ to handle high-concurrency transaction streams, integrating Redis caching to slash backend API latency by 40%.",
+      "Migrated from a monolithic architecture to a Microservices architecture with Spring Boot, using Netflix Eureka and API Gateways, reducing system downtime by 40%.",
+      "Developed secure, PCI DSS-compliant RESTful APIs for payment processing, utilizing OAuth2 and JWT to enforce robust authentication and authorization standards."
     ],
-    "imageSrc": "history/Accenture.png"
+    "imageSrc": "history/wellsfargo.png"
   },
   {
-    "role": "Software Engineer Intern",
-    "organisation": "DXC Technology",
-    "startDate": "April, 2021",
-    "endDate": "June, 2021",
+    "role": "Software Engineer",
+    "organisation": "UnitedHealth Group (Optum)",
+    "startDate": "April 2020",
+    "endDate": "August 2023",
     "experiences": [
-      "Designed and developed highly efficient RESTful APIs using MERN (MongoDB, Express.js, React.js, Node.js), enabling seamless integration across multiple business systems, ensuring security compliance.",
-      "Implemented robust API security measures using JWT authentication and middleware in Node.js. Designed role-based access control (RBAC), reducing unauthorized access by 30%.",
-      "Improved front-end performance by implementing Code Splitting, Windowing, and Lazy Loading, reducing load times by 35%.",
-      "Optimized database operations in MongoDB with indexing, aggregation pipelines, and schema design best practices, resulting in a 40% improvement in query performance and faster data retrieval for high-traffic APIs."
+      "Integrated AI-driven predictive care models using AWS SageMaker to automate clinical decision support and provide real-time risk analysis to staff.",
+      "Architected secure, HIPAA-compliant RESTful APIs adhering to FHIR standards, enforcing SSL/TLS encryption and deploying a granular RBAC system with JWT authentication.",
+      "Engineered a high-performance Angular frontend implementing OnPush change detection and virtual scrolling (Angular CDK), achieving 95ms render latency for data grids displaying 10,000+ records.",
+      "Designed cloud-first solutions using AWS Lambda, S3, and DynamoDB for fast clinical data access, reducing infrastructure costs by 25% via serverless architecture.",
+      "Integrated WebSockets for real-time updates on appointments and medication tracking, improving response times by 30% and ensuring consistency across the payer ecosystem."
     ],
-    "imageSrc": "history/dxctech.png"
+    "imageSrc": "history/UnitedHealthGroup.png"
   }
 ]

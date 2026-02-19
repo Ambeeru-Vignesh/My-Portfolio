@@ -7,39 +7,34 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Vignesh</h1>
+        <p className={styles.greeting}>Hello, World 👋</p>
+        <h1 className={styles.title}>I'm Vignesh Ambeeru</h1>
         <p className={styles.description}>
-          I’m a full-stack software engineer with 2+ years of experience
-          crafting responsive front-end interfaces and scalable back-end
-          systems. Proficient in <b>Java</b>, <b>Spring Boot</b>,{" "}
-          <b>React.js</b>, <b>Next.js</b>,<b>Node.js</b>, <b>SQL</b>, and{" "}
-          <b>MongoDB</b>, I deliver seamless user experiences and
-          high-performance APIs. Skilled in <b>Docker</b>, <b>Kubernetes</b>,
-          and <b>AWS</b>, I optimize workflows with <b>Redis</b> and{" "}
-          <b>Kafka</b>. I’ve built advanced AI/ML-driven applications,
-          leveraging <b>Gen AI</b> and large datasets to tackle complex
-          challenges. Passionate about innovation and collaboration, I thrive in
-          agile environments, creating impactful solutions.
+          Senior Full-Stack Engineer with 5 years of experience building secure, scalable enterprise applications.
+          Proficient in <b>Java</b>, <b>Spring Boot</b>, <b>Python</b>, <b>Node.js</b>, <b>React.js</b>, and <b>Angular</b>.
+          I specialize in <b>Generative AI</b>, <b>RAG</b>, and <b>Vector Databases</b>, and I architect cloud-native systems on <b>AWS</b> with <b>Docker</b>, <b>Kubernetes</b>, <b>Kafka</b>, and <b>Redis</b>.
         </p>
-        <div class="button-container">
+        <div className={styles.buttonContainer}>
           <a
             href="https://drive.google.com/file/d/1RZbskDmHWJAmvmtKXZbKtJ7Hf5hI6Z7L/view?usp=drive_link"
             className={styles.contactBtn}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Resume
+            View Resume
           </a>
-          <a href="mailto:vigneshvj53@email.com" className={styles.contactBtn}>
-            Contact
+          <a href="mailto:vigneshambeeru9@gmail.com" className={styles.contactBtnOutline}>
+            Contact Me
           </a>
         </div>
       </div>
-      <img
-        src={getImageUrl("hero/hero.png")}
-        alt="Hero image of me"
-        className={styles.heroImg}
-      />
+      <div className={styles.heroImgWrapper}>
+        <img
+          src={getImageUrl("hero/hero.png")}
+          alt="Hero image of me"
+          className={styles.heroImg}
+        />
+      </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

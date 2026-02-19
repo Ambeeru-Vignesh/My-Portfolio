@@ -9,7 +9,10 @@ import GitHubCalendar from "react-github-calendar";
 export const Projects = () => {
   return (
     <section className={styles.container} id="projects">
-      <h2 className={styles.title}>Projects</h2>
+      <div className={styles.titleWrapper}>
+        <h2 className={styles.title}>Projects</h2>
+        <div className={styles.titleUnderline} />
+      </div>
       <div className={styles.projects}>
         {projects.map((project, id) => {
           return <ProjectCard key={id} project={project} />;
@@ -19,9 +22,9 @@ export const Projects = () => {
         <h1>GitHub Contributions</h1>
         <GitHubCalendar
           username="Ambeeru-Vignesh"
-          blockSize={20}
-          blockMargin={5}
-          fontSize={16}
+          blockSize={17}
+          blockMargin={4}
+          fontSize={15}
         />
       </div>
     </section>
